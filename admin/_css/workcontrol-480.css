@@ -1,0 +1,31 @@
+.box25{width: 100%;}
+.label_50 .label{
+    width: 100%;
+    margin-right: 0;
+}
+.dashboard_content{
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+.dashboard_fix{
+    min-width: 320px;
+}
+
+.dashboard_search article p,
+.dashboard_search article h1{
+    width: 50%;
+    padding: 20px;
+}
+
+.dashboard_search article h1{
+    text-align: center;
+}
+
+.dashboard_orders .order span{
+    width: 40%;
+    font-size: 0.875em;
+}
+.dashboard_orders .order span:nth-of-type(3n+0){
+    display: none;
+}

@@ -1,0 +1,8 @@
+ftp.oteste.info
+valepratas@oteste.info
+vale-pratas321
+
+http://cpanel.oteste.info/cpsess6587525712/3rdparty/phpMyAdmin/index.php
+BD oteste_valepratas
+oteste_vale
+vale-pratas321

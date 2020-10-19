@@ -1,0 +1,58 @@
+Site para vendas de jóias, SIMPLES e ELEGANTE
+
+- Link para pessoa que vender receber uma %
+Neste caso, irá ter várias pessoas cadastradas como vendedores. Neste caso se alguem vender usando um certo ID dele ele ganha uma porcentagem em cima da venda, correto?
+
+- Segmentar a data que começa e terminar as vendas para receber a %
+Como assim? Em cada periodo vai ter uma determinada porcentagem? Não seria fixa ?
+
+- Área de login e senha para os vendedores analisarem o perfil detalhado da venda que fez
+Area restrita pros vendedores, exatamente o que eles devem ver além de quais vendas que fez? Valor em conta? Alterar fotos do perfil, nome de usuario, email? 
+
+- Área de login e senha para o responsável analisar vendas de todos os funcionários
+Isso seria uma senha mestre? Com visão geral de tudo?
+
+Então Vinicius, precisamos deixar tudo bem detalhado antes de começar a programar, quando mais detalhado você poder me passar melhor ainda pra adiantar o processo. Depois que resolvemos as funcionalidades, vou documentar tudo, criar o contrato baseado nisso e coloco a mão na massa.
+
+RESPONDENDO!
+
+- Link para pessoa que vender receber uma %1
+Neste caso, irá ter várias pessoas cadastradas como vendedores. Neste caso se alguem vender usando um certo ID dele ele ganha uma porcentagem em cima da venda, correto?
+ISSO, CADA PESSOA VAI TER UM LINK PARA DIVULGAR E RECEBER UM % EM CIMA DA VENDA
+
+- Segmentar a data que começa e terminar as vendas para receber a %
+Como assim? Em cada periodo vai ter uma determinada porcentagem? Não seria fixa ?
+O PAGAMENTO VAI SER MENSAL, ENTÃO VAI SER DO DIA 21 ATÉ O DIA 20 DO OUTRO MÊS E FECHA AQUELE PAGAMENTO, NO DIA 21 JÁ COMEÇA DO OUTRO MÊS... ISSO QUE QUIS DIZER
+
+- Área de login e senha para os vendedores analisarem o perfil detalhado da venda que fez
+Area restrita pros vendedores, exatamente o que eles devem ver além de quais vendas que fez? Valor em conta? Alterar fotos do perfil, nome de usuario, email
+AQUI É PARA OS VENDEDORES PODEREM TER ACESSO AOS ITENS QUE ELES JÁ VENDERAM E  O QUANTO JÁ GANHARAM DE COMISSÃO ATÉ O MOMENTO
+
+- Área de login e senha para o responsável analisar vendas de todos os funcionários
+Isso seria uma senha mestre? Com visão geral de tudo? SIM, SENHA MESTRE COM VISÃO DE TUDO.
+
+=================================================================================================================
+-----------------------------------------------------------------------------------------------------------------
+=================================================================================================================
+Bom vinicius, seriam a seguintes telas...
+
+- Página Inicial - Feita e aprovada;
+- Pagina com todos produtos - Em construção;
+- Página com todos produtos de cada categoria - Em construção;
+- Aréa de login para vendedores - Em construção;
+- Aréa de login para clientes - Em construção;
+- Página de contato;
+- Pagina de login master com todos acessos a tudo;
+
+
+Vinicius, os links com as telas...
+"Página com todos produtos" será tanto usada para ver os produtos aleatório como também vai servir quando navegar por categoria.
+"As paginas de acessos", vamos ter a de clientes, exclusivas pelas redes sociais o login facilita a venda rápida. 
+As de acesso aos vendedores e acesso master, sera a mesma, porém de acordo com o login que colocar ela direciona pra cada perfil. Todos eles abriram em modo pop-up.
+
+http://oteste.info/vale-pratas/docs/app1/telas/home.jpg
+http://oteste.info/vale-pratas/docs/app1/telas/categorias.jpg
+http://oteste.info/vale-pratas/docs/app1/telas/fale-conosco.jpg
+http://oteste.info/vale-pratas/docs/app1/telas/login-admin.jpg
+http://oteste.info/vale-pratas/docs/app1/telas/login-clientes.jpg
+http://oteste.info/vale-pratas/docs/app1/telas/todos-produtos.jpg

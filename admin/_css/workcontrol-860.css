@@ -1,0 +1,66 @@
+.dashboard_nav{left: -220px;}
+.dashboard_fix{
+    margin-left: 0;
+    min-width: 640px;
+}
+.dashboard_header{text-align: center;}
+.dashboard_sidebar_welcome{display: none;}
+
+.box25{width: 50%;}
+.box30{width: 100%;}
+.box50{width: 100%;}
+.box70{width: 100%;}
+.box100{width: 100%;}
+
+.dashboard_nav_menu_sub{
+    display: block;
+    position: relative;
+    left: 0;
+}
+
+.dashboard_header_search{
+    float: none;
+    margin: 15px auto 0 auto;
+    text-align: center;
+}
+
+.dashboard_nav_menu_sub_li a{
+    padding: 10px 15px 10px 35px;
+    background: #1A242E;
+    border-top: 1px dotted #263644;
+}
+
+
+.single_onlinenow p{
+    width: 50%;
+    padding: 10px;
+}
+
+.single_onlinenow p:first-child{
+    width: 50%;
+}
+
+.single_onlinenow p:last-child{
+    width: 100%;
+}
+
+.single_comment .comm_thumb{
+    display: none;
+}
+
+.single_comment .comm_content{
+    width: 100%;
+}
+
+/***********************************
+############ CONFIGURAÇÕES ##############
+***********************************/
+.box_conf form{
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+
+.box_conf form:nth-child(2n+0){
+    margin-left: 0%;
+}

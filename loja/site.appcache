@@ -1,0 +1,26 @@
+CACHE MANIFEST
+# 2010-06-18:v3
+    
+# Explicitly cached 'master entries'. 
+CACHE: 
+http://southnegocios.com/visao/recursos/css/sweet-alert.min.css
+http://southnegocios.com/sistema/bootstrap/css/bootstrap.min.css
+/visao/recursos/js/sweet-alert.min.js
+http://southnegocios.com/visao/recursos/css/popup.css 
+/visao/recursos/js/ajax/BeneficioCliente.js
+http://southnegocios.com/visao/recursos/css/instalador.css
+/visao/recursos/js/jquery-1.10.2.min.js
+http://code.jquery.com/ui/1.11.4/jquery-ui.min.js
+http://southnegocios.com/visao/recursos/js/Geral.js 
+http://southnegocios.com/sistema/dist/js/pages/dashboard.js
+/visao/recursos/js/ajax/Agenda.js 
+/visao/recursos/js/ajax/Comunicado.js 
+/visao/recursos/js/ajax/Proposta.js
+http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
+/visao/recursos/js/chat.js 
+http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css 
+http://www.gstatic.com/charts/loader.js
+http://southnegocios.com/control/ProcurarAgenda2.php
+
+NETWORK:
+*

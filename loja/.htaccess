@@ -1,0 +1,63 @@
+#||--Para url amigável--||
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}\.php -f
+    RewriteRule ^(.*)$ $1.php 
+#    RewriteRule ^produtos/([a-z0-9-]+)/?$ /produtos.php?codcategoria=$1 [NC]
+#    RewriteRule ^produtos/([a-z0-9-]+)/([0-9]+)/?$ /produtos.php?codcategoria=$1&codproduto=$2 [NC]
+#    RewriteRule ^produto/([a-z0-9-]+)/([0-9]+)/?$ /produto-interno.php?codproduto=$1 [NC]
+  RewriteRule ^produto/([a-z0-9-]+)/([0-9]+)/?$ produto-interno.php?codproduto=$2&nome=$1 [NC]
+  RewriteRule ^aneis tipo.php?codtipo=3 [NC]
+  RewriteRule ^brincos tipo.php?codtipo=4 [NC]
+  RewriteRule ^colares tipo.php?codtipo=5 [NC]
+  RewriteRule ^correntes tipo.php?codtipo=5 [NC]
+  RewriteRule ^pulseiras tipo.php?codtipo=6 [NC]
+  RewriteRule ^produtos tipo.php [NC]
+
+  RewriteRule ^folheado tipo.php?codcategoria=3 [NC]
+  RewriteRule ^ouro tipo.php?codcategoria=1 [NC]
+  RewriteRule ^prata tipo.php?codcategoria=2 [NC]
+
+</IfModule>
+
+### Otimizacao de cache e compressao ###
+### Nao Remover ###
+<IfModule mod_expires.c>
+ExpiresActive On
+#ExpiresDefault "access plus 1 month"
+#ExpiresByType application/javascript "access plus 2 month"
+#ExpiresByType application/x-javascript "access plus 2 month"
+#ExpiresByType text/javascript A900
+#ExpiresByType text/html A90
+#ExpiresByType text/xml A90
+#ExpiresByType text/css A900
+#ExpiresByType text/plain A62
+ExpiresByType image/gif "access plus 2 month"
+ExpiresByType image/jpg "access plus 2 month"
+ExpiresByType image/jpeg "access plus 2 month"
+ExpiresByType image/png "access plus 2 month"
+ExpiresByType image/bmp "access plus 2 month"
+#ExpiresByType application/x-shockwave-flash A3600
+#ExpiresByType font/truetype "access plus 2 month"
+#ExpiresByType font/opentype "access plus 2 month"
+#ExpiresByType application/x-font-woff   "access plus 2 month"
+ExpiresByType image/svg+xml "access plus 2 month"
+#ExpiresByType application/vnd.ms-fontobject "access plus 2 month"
+</IfModule>
+
+###Compacta css###
+<Files *.css>
+SetOutputFilter DEFLATE
+</Files>
+
+###Compacta javascript###
+<Files *.js>
+SetOutputFilter DEFLATE
+</Files>
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/x-javascript application/x-httpd-php application/rss+xml application/atom_xml
+</IfModule>
+
+### fim das otimizacoes ###

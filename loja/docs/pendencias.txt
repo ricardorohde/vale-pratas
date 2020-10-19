@@ -1,0 +1,53 @@
+Eu  preciso de algumas informações para deixar o layout melhor...
+Me manda o endereço fisico completo;
+Telfones: celular, fixo...
+Emails de contato.
+Horários e dias de atendimento
+
+
+Da uma olhada nas aplicações do site...
+Ressaltando que eu foquei em um desenvolvimento simples e funcionalidades conforme conversamos nos requisitos.
+É um site, focado nas vendas diretamente na home já adentrando os principais solicitações do usuário como telefone, email, horarios de atendimento, bandeiras de pagamento e se realmente é seguro.
+Em relação as cores, acho que ficou bem elegante e profissional, dando espaço para publicações de promoções e ofertas logo no final.
+
+O que acha?
+
+
+No topo do site escreve lá onde ta o logo em cima VALE logo PRATAS - Não entenvdi.
+pode tirar no contato a parte do mapa - Retirado
+na parte de baixo do site pode tirar a parte do endereço também - Retirado
+
+Você consegue adicionar alguma coisa antes de entrar no site ou a seu criterio pra pessoa escolher se ela quer produtos de prata / ouro / folheado ... não sei se entendeu essa última - Entendi... No caso ele vai ser direcionado pra categorias especificas dentro do site, certo?
+
+
+Baskerville old face
+baskerville-old-face
+
+bernard mt condensed
+bernard-mt-condensed
+
+castellar
+
+century gothic
+century-gothic
+
+edwardian script ltc
+edwardian-script-ltc
+
+lucia calligraphy
+lucia-calligraphy
+
+modern no.20
+modern-no-20
+
+palace script mt
+palace-script-mt
+
+vladimir script
+vladimir-script
+
+bonodi mt
+bonodi-mt
+
+bonodi mt condense
+bonodi-mt-condense

@@ -1,0 +1,2 @@
+{2016/03/09 09:18:14} [Error] PagSeguroSessionService.getSession() - error [HTTP 403] - FORBIDDEN  
+{2016/03/09 09:18:38} [Error] PagSeguroSessionService.getSession() - error [HTTP 403] - FORBIDDEN  
